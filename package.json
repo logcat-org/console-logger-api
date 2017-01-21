@@ -1,0 +1,9 @@
+{
+  "name": "console-logger-api",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index",
+    "build": "lein cljsbuild once",
+    "watch": "lein cljsbuild auto"
+  }
+}
