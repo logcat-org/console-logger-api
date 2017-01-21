@@ -1,8 +1,13 @@
 {
   "name": "console-logger-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/spirinvladimir/console-logger-api.git"
+  },
   "scripts": {
-    "start": "node index",
+    "test": "node -e \"require('./index').error('should be red')\"",
+    "start": "npm run watch",
     "build": "lein cljsbuild once",
     "watch": "lein cljsbuild auto"
   }
