@@ -1,6 +1,6 @@
 {
   "name": "console-logger-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": {
     "type": "git",
     "url": "git://github.com/spirinvladimir/console-logger-api.git"
@@ -10,5 +10,8 @@
     "start": "npm run watch",
     "build": "lein cljsbuild once",
     "watch": "lein cljsbuild auto"
+  },
+  "devDependencies": {
+    "closurecompiler-externs": "github:spirinvladimir/node.js-closure-compiler-externs"
   }
 }

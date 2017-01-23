@@ -1,4 +1,4 @@
-(defproject console-logger-api "1.0.2"
+(defproject console-logger-api "1.0.3"
 
   :min-lein-version "2.5.3"
 
